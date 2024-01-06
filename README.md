@@ -11,10 +11,10 @@
 
 ### Follow the commands to build and run the containers
   * Download and install Docker (https://docs.docker.com/engine/install/)
-  * Clone the repo (https://github.com/vinjithkannan/innoscripta-test-news-backend.git) 
+  * Clone the repo (https://github.com/vinjithkannan/all-inkl-test.git) 
   
   * ```shell
-    git clone https://github.com/vinjithkannan/innoscripta-test-news-backend.git
+    git clone https://github.com/vinjithkannan/all-inkl-test.git
     git fetch origin docker-development  
     git checkout docker-development
     
@@ -29,10 +29,6 @@
   #### (http://localhost)
 
   * ```shell
-    docker exec -it innoscriptaapp sh
-    /var/www/# composer install
-    /var/www/# php artisan migrate
-  ```  
-
-### API Documentation
-* Api Collection added from post man exported file Innoscripta News.postman_collection.json
+    docker exec -it all-inkl-app
+    /var/www/# composer dump-autoload
+  ```
