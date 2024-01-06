@@ -3,10 +3,9 @@
 * Development Setup is dockerized
 * Container managed with in repo itself
 * Docker container is managing 3 container
-  * Innoscripta Web - innoscriptanginx
-  * Innoscripta App - innoscriptaapp
-  * Innoscripta DB - innoscriptamysql
-  * Innoscripta Cache - innoscripta-redis
+  * all-inkl-test Web - all-inkl-nginx
+  * all-inkl-test App - all-inkl-app
+  * all-inkl-test DB - all-ink-database
 
 ## Build and Run Containers
 
